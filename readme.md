@@ -32,6 +32,12 @@ Install required packages using:
 ```bash
 pip install pyqt5 pyserial qdarkstyle
 ```
+### Listener Program
+To communicate with serial you'll need to upload the listening program 
+``
+drivester_listener.ino
+``
+to your microcontroller. Ensure you close all serial monitors before launching the main program. 
 
 ### Running in Development
 Clone or download the repository and run:
@@ -53,7 +59,6 @@ python drivester.py
 ---
 
 ## Usage
-
 ### Global Hotkeys
 The default global hotkeys are:
 - **Alt+A:** Toggle Start/Stop (or execute a step in Step mode)
